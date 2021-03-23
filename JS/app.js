@@ -8,7 +8,7 @@ function Horn(horn) {
     this.horns = horn.horns
     allImage.push(this);
 }
-//console.log(allImage);
+
 Horn.prototype.cloneRender = function () {
     let clonedDiv = $('#photo-template').clone();
     clonedDiv.find("h2").text(this.title);
@@ -27,7 +27,7 @@ const ajaxSettings = {
 let key = []
 $.ajax("data/page-1.json", ajaxSettings).then((data) => {
     data.forEach((horn) => {
-        //console.log(horn);
+      
         if (!key.includes(horn.keyword)) {
             key.push(horn.keyword)
         }
@@ -38,22 +38,18 @@ $.ajax("data/page-1.json", ajaxSettings).then((data) => {
        $('select').append(`<option value=${element}>${element}</option>`) 
     });
 });
-   let selectArr=[]
-   selectArr.forEach((horn => {
-    let selectObject = new Horn(horn);
-    selectObject.cloneRender();
-    
-   }));
+
         $("select").change(function(){ 
-            $('main').remove();
+            $('main').html('');
             let value = $(this).val();
+            console.log(allImage)
             allImage.forEach(element =>{
                 if (value==element.keyword) {
+                    console.log(value, element.keyword);
                     element.cloneRender();
-                    selectArr.push(element)
+                
                 }
 
             });
          
           });
-console.log(selectArr);
