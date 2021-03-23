@@ -1,0 +1,21 @@
+body{
+    font-family: 'Pangolin', cursive;
+    margin: 0;
+    padding: 0;  
+}
+ .photo{
+    width: 200px;
+    margin: 0 ;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+footer{
+    clear: both;
+    text-align: center;
+}
+select{
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 15px;
+}
