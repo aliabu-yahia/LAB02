@@ -1,4 +1,22 @@
+select{
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 15px;
+}
+
+h2{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
 header h1{
     text-align: center;
     font-size: 50px;
+}
+.photo{
+    width: 200px;
+    margin: 0 ;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 10px;
 }
