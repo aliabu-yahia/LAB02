@@ -10,7 +10,7 @@ Finish time: 3:10pm
 
 Actual time needed to complete: 40 min
 
-
+---------------------------
 
 Number and name of feature: Feature #2: Filter images
 
@@ -22,7 +22,7 @@ Finish time:6:00pm
 
 Actual time needed to complete: 150min
 
-
+---------------------------------
 Number and name of feature:Feature #3: Style the application
 
 Estimate of time needed to complete: 60min
