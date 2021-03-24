@@ -32,3 +32,40 @@ Start time: 6:15pm
 Finish time:7:30pm
 
 Actual time needed to complete: 75min
+
+--------------------------------
+Lab: 03 - Flexbox and Templating
+
+-------------------------------
+Number and name of feature: Feature 1: Pagination
+
+Estimate of time needed to complete: 60 min
+
+Start time: 3:00pm
+
+Finish time: 3:10pm
+
+Actual time needed to complete: 40 min
+
+------------------------------
+Number and name of feature: Feature #1: Display images
+
+Estimate of time needed to complete: 60 min
+
+Start time: 2:30pm
+
+Finish time: 3:10pm
+
+Actual time needed to complete: 40 min
+
+-----------------------------------------
+Number and name of feature: Feature #1: Display images
+
+Estimate of time needed to complete: 60 min
+
+Start time: 2:30pm
+
+Finish time: 3:10pm
+
+Actual time needed to complete: 40 min
+
