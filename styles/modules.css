@@ -20,3 +20,22 @@ header h1{
     margin-bottom: 50px;
     margin-left: 10px;
 }
+#page1 , #page2 {
+    margin: 15px 0px 15px 450px;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    border: black;
+    padding: auto;
+    }
+    header nav {
+        display: flex;
+        flex-direction: row;
+    }
+    main{
+        display: flex;
+    flex-wrap: wrap;
+    margin: 10px 7px 10px 30px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    }
